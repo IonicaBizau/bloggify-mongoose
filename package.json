@@ -9,8 +9,8 @@
   "author": "Bloggify",
   "license": "MIT",
   "dependencies": {
-    "iterate-object": "^1.3.1",
-    "mongoose": "^4.4.7"
+    "iterate-object": "^1.3.2",
+    "mongoose": "^4.5.10"
   },
   "devDependencies": {},
   "repository": {
