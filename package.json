@@ -1,6 +1,6 @@
 {
   "name": "bloggify-mongoose",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Mustache renderer for Bloggify.",
   "main": "lib/index.js",
   "scripts": {
