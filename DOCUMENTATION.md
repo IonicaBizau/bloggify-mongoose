@@ -2,12 +2,9 @@
 
 You can see below the API reference of this module.
 
-### `init(config, bloggify, ready)`
+### Plugin Configuration
 
-#### Params
-- **Object** `config`: The configuration object.
  - `db` (String): The database url.
  - `models` (Object): An object containing the Mongoose models.
-- **Bloggify** `bloggify`: The `Bloggify` instance.
-- **Function** `ready`: The ready handler.
+ - `models_dir` (String): The relative path to a directory containing models stored in files.
 

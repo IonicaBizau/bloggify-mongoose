@@ -42,5 +42,12 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/bloggify-mongoose/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/bloggify-mongoose#readme"
+  "homepage": "https://github.com/IonicaBizau/bloggify-mongoose#readme",
+  "bloggify": {
+    "config": {
+        "models": {},
+        "models_dir": "",
+        "db": ""
+    }
+  }
 }

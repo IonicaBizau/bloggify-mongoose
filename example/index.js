@@ -1,6 +1,14 @@
 // Configuration example
 module.exports = {
     db: "mongodb://localhost/people"
+  , models_dir: "path/to/models"
+    /*
+        Comment.js:
+            module.exports = {
+                body: String,
+                ...
+            };
+     */
   , models: {
         User: {
             name: {
