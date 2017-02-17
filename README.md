@@ -3,7 +3,7 @@
 
  [![Version](https://img.shields.io/npm/v/bloggify-mongoose.svg)](https://www.npmjs.com/package/bloggify-mongoose) [![Downloads](https://img.shields.io/npm/dt/bloggify-mongoose.svg)](https://www.npmjs.com/package/bloggify-mongoose)
 
-> Mustache renderer for Bloggify.
+> Support for Mongoose models in Bloggify.
 
 ## :cloud: Installation
 
