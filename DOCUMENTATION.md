@@ -8,6 +8,8 @@ You can see below the API reference of this module.
  - `models` (Object): An object containing the Mongoose models.
  - `models_dir` (String): The relative path to a directory containing models stored in files.
 
+The model objects can be accessed by requiring the module or accessing the `Bloggify.models` object.
+
 ### `model.addHook(type, event, fn)`Add `pre/post` hooks to the model operations.
 
 Example:
