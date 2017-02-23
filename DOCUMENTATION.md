@@ -10,7 +10,8 @@ You can see below the API reference of this module.
 
 The model objects can be accessed by requiring the module or accessing the `Bloggify.models` object.
 
-### `model.addHook(type, event, fn)`Add `pre/post` hooks to the model operations.
+### `model.addHook(type, event, fn)`
+Add `pre/post` hooks to the model operations.
 
 Example:
 
