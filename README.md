@@ -53,49 +53,27 @@ module.exports = {
 };
 ```
 
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 ## :memo: Documentation
 
 
-### Plugin Configuration
+### bloggify:init
 
- - `db` (String): The database url.
+#### Params
+- **Object** `config`:
+ - `uri` (String): The database url.
  - `models` (Object): An object containing the Mongoose models.
  - `models_dir` (String): The relative path to a directory containing models stored in files.
 
 The model objects can be accessed by requiring the module or accessing the `Bloggify.models` object.
-
-### `model.addHook(type, event, fn)`
-Add `pre/post` hooks to the model operations.
-
-Example:
-
-```js
-const EMAIL_BLACKLIST = ["foo@bar.com"];
-
-// Do something before saving
-Bloggify.models.User.addHook("pre", "save", function (next) {
-  if (EMAIL_BLACKLIST.includes(this.email)) {
-     return next(new Error("This email is blacklisted."));
-  }
-  next();
-});
-
-// Do something after saving a document
-Bloggify.models.User.addHook("post", "save", function (next) {
-  console.log("User was saved: ", this);
-  next();
-});
-```
-#### Params
-- **String** `type`: The Mongoose hook type (`pre` or `post`).
-- **String** `event`: The Mongoose event name. Valid events are:
-    - `init`
-    - `validate`
-    - `save`
-    - `remove`
-
-  Find more information about this in the [Mongoose documentation](http://mongoosejs.com/docs/middleware.html).
-- **Function** `fn`: The callback function called with the Model instance as context and with a `next` handler.
 
 
 
@@ -103,6 +81,11 @@ Bloggify.models.User.addHook("post", "save", function (next) {
 Have an idea? Found a bug? See [how to contribute][contributing].
 
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`bloggify.org`](https://github.com/Bloggify/newww#readme) (by Bloggify)—The Bloggify.org website source code.
 
 ## :scroll: License
 
