@@ -2,9 +2,8 @@
 
 You can see below the API reference of this module.
 
-### bloggify:init
+### Plugin Configuration
 
-#### Params
 - **Object** `config`:
  - `uri` (String): The database url.
  - `models` (Object): An object containing the Mongoose models.
